@@ -9,7 +9,7 @@ booleen = (10 > 1)
 
 # Output info
 
-output_string = f'Language: {Language} \nVersion: {version} \n\
+output_string = f'Language: {language} \nVersion: {version} \n\
 Pi approx: {pi: .2f} \nComputation valid: {booleen}'
 
 print(output_string)
