@@ -3,9 +3,9 @@
 # Define variable
 
 language = ("Python")
-version = 3
-pi = 3.141592653589793
-booleen = 10 > 1
+version = (3)
+pi = (3.141592653589793)
+booleen = (10 > 1)
 
 # Output info
 
