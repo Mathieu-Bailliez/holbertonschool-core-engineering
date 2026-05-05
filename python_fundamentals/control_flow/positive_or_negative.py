@@ -7,7 +7,7 @@ message_positive = "is positive"
 message_zero = "is zero"
 
 # Output info
-if (number >= 1):
+if (number > 0):
     print(f"{number} {message_positive}")
 elif (number == 0):
     print(f"{number} {message_zero}")
