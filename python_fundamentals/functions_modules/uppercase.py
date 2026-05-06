@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 
 def uppercase(str):
+    for c in str:
+        ascii_value = ord(c)
 
-    for char in str:
-        ascii_value = ord(char)
-
-        if ascii_value >= 97 and ascii_value <= 122:
-            ascii_value = ascii_value - 32
-
-        print(chr(ascii_value), end="")
+        if 97 <= ascii_value <= 122:
+            print(chr(ascii_value - 32), end="")
+        else:
+            print(c, end="")
 
     print()
+
+if __name__ == "__main__":
+    uppercase("Holberton")
+    uppercase("hello world")
+    uppercase("Python123")
+    
