@@ -6,5 +6,5 @@
 for index in range(97, 123):
     if index != 101 and index != 113:
         print(chr(index), end="")
-    if index >= 123:
-        print(" ")
+    if index >= 122:
+        print("")
