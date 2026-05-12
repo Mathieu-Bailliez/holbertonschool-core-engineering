@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-alphabet = ("abcdefghijklmnopqrstuvwxyz\n")
-
-count = 0
-
-for count in alphabet:
-    if count != 'e' and count != 'q':
-        print(count, end="")
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="")
