@@ -57,3 +57,60 @@ By the end of this project, you should be able to:
     - Be PEP8 compliant (pycodestyle 2.7.x).
 - Output must match expected formatting exactly.
 - No external libraries are allowed unless explicitly requested.
+
+
+## Task
+<details>
+<summary> 0. Interpreter Reasoning </summary>
+
+Start the Python interpreter:
+
+    python3
+
+Inside the interpreter:
+
+- Evaluate a mathematical expression.
+- Assign a value to a variable.
+- Enter the variable name alone.
+- Use print() with that variable.
+- Evaluate a comparison expression.
+
+Observe carefully:
+
+- When Python displays output automatically.
+- When it does not.
+- What role print() plays.
+
+Reflect on why the behavior differs between expressions and statements.
+
+</details>
+
+
+<details>
+<summary> 1. Deterministic Script Output</summary>
+
+Create an executable file named structured_output.py that prints exactly:
+
+    Language: Python
+    Version: 3
+    Pi approx: 3.14
+    Computation valid: True
+
+Constraints:
+
+- The float must be derived from a numeric value and formatted to two decimals.
+- The boolean must result from evaluating a comparison expression.
+- At least one line must use formatted string interpolation.
+- No input is allowed.
+
+Execution example:
+
+    ./structured_output.py
+
+The output must match exactly.
+
+    Repo:
+
+        GitHub repository: holbertonschool-core-engineering
+        Directory: python_fundamentals/hello_world
+        File: structured_output.py
