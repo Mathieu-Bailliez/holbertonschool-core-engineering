@@ -4,10 +4,6 @@
 
 # 2. Alphabet Game (Lowercase)
 
-for alphabts in range(97, 123):
-    if alphabts != 101 and alphabts != 113:
-        print(chr(alphabts), end="")
-
 # Etape 1. On crée une variable vide pour stocker les lettres
 result = ""
 
