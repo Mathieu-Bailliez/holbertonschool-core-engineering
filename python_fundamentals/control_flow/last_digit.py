@@ -19,6 +19,3 @@ elif digit == 0:
     print(f"{message} 0")
 else:
     print(f"{message} less than 6 and not 0")
-
-
-
