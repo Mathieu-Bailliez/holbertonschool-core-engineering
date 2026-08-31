@@ -11,5 +11,5 @@ my_bool = version > 2
 
 print(f"Language: {langage}")
 print(f"Version: {version}")
-print(f"Pi approx: {pi: .2f}")
+print(f"Pi approx: {pi:.2f}")
 print(f"Computation valid: {my_bool}")
