@@ -1,3 +1,7 @@
+<details>
+<summary> Python - Environment & First Programs </summary>
+
+
 # Python - Environment & First Programs
 
     Novice
