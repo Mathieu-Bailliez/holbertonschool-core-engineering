@@ -118,3 +118,154 @@ The output must match exactly.
         GitHub repository: holbertonschool-core-engineering
         Directory: python_fundamentals/hello_world
         File: structured_output.py
+</details>
+
+<details>
+<summary>
+2. Installing and Using `pycodestyle` with `pip`
+</summary>
+
+pip is the standard tool used to install Python packages and development tools.
+
+When you run:
+
+    pip install <package_name>
+
+The package is typically installed globally for that Python installation unless a virtual environment is active.
+
+Install pycodestyle using pip.
+
+After installation, run:
+
+    pycodestyle structured_output.py
+
+If formatting errors are reported, correct your script until no errors remain.
+
+When installing in the sandbox, you may see a warning such as:
+
+    > WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead.
+
+This warning appears because installing packages globally (especially as root) can affect the system Python environment.
+
+On a personal machine, installing tools globally can:
+
+- Create version conflicts.
+- Affect other projects unexpectedly.
+- Require elevated permissions.
+
+This motivates the use of virtual environments.
+</details>
+<details>
+<summary> 3. Virtual Environment Isolation
+</summary>
+
+A virtual environment is an isolated Python setup with its own interpreter and installed packages. The goal is to see, concretely, that installing a tool in one environment does not make it available in another.
+
+The instructions below use Linux commands. On Windows, the process is similar, but activation commands differ.
+
+### Create two environments
+
+From the folder where you want to work, create two virtual environments:
+
+    python3 -m venv alpha_env
+    python3 -m venv beta_env
+
+### Confirm activation changes “which Python”
+
+Activate the first environment:
+
+    source alpha_env/bin/activate
+
+Confirm the Python interpreter being used:
+
+    which python3
+    python3 --version
+
+Expected behavior:
+- which python3 points inside alpha_env/ (a path containing alpha_env/bin/python3).
+- The Python version prints normally (for example, Python 3.8.x).
+
+### Install a tool in only one environment
+
+While alpha_env is active, install pycodestyle:
+
+    pip install pycodestyle
+
+You may see a warning like:
+
+>WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+What matters here:
+
+- Packages installed with pip are global to the current Python environment.
+- If a virtual environment is active, the installation is isolated to that environment.
+
+Confirm pycodestyle is available:
+
+    pycodestyle --version
+
+Expected behavior:
+
+- A version number is printed (for example, 2.7.x).
+
+### Deactivate and switch environments
+
+Deactivate the current environment:
+
+    deactivate
+
+Confirm you are no longer using the environment interpreter:
+
+    which python3
+
+Expected behavior:
+
+- The path no longer contains alpha_env/.
+
+Now activate the second environment:
+
+    source beta_env/bin/activate
+
+Confirm interpreter location again:
+
+    which python3
+
+Expected behavior:
+
+- which python3 points inside beta_env/.
+
+### Verify isolation
+
+Check whether pycodestyle exists in beta_env:
+
+    pycodestyle --version
+
+Expected behavior:
+
+- The command should fail (for example: command not found) or indicate it is not available.
+
+This difference is the point: pycodestyle was installed only in alpha_env, so it should not appear in beta_env.
+
+### Return to the first environment (switch back)
+
+Deactivate beta_env:
+
+    deactivate
+
+Activate alpha_env again:
+
+    source alpha_env/bin/activate
+
+Confirm pycodestyle is available again:
+
+    pycodestyle --version
+
+Expected behavior:
+
+- A version number is printed again.
+
+</details>
+</details>
+
+
+
