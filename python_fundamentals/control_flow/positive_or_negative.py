@@ -1,23 +1,17 @@
 #!/usr/bin/env python3
-"""Module: Generate a ramdom number and print if is zero, positive or négative"""
+"""Module: Generate a ramdom number and print if the result  is zero, positive
+or négative"""
 
-
-# 0. Positive anything is better than negative nothing
-
+# Define variables
 number = __import__("random").randint(-10, 10)
+positive = "is positive"
+zero = "is zero"
+negative = "is negative"
 
-# Spec
-"""
-Using conditional statements, print:
-
-    <number> is positive if the number is greater than 0
-    <number> is zero if the number equals 0
-    <number> is negative if the number is less than 0
-"""
-
+# Output:
 if number > 0:
-    print(f"{number} is positive")
+    print(f"{number} {positive}")
 elif number == 0:
-    print(f"{number} is zero")
+    print(f"{number} {zero}")
 else:
-    print(f"{number} is negative")
+    print(f"{number} {negative}")
