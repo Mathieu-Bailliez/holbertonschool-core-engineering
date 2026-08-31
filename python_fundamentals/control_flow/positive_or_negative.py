@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Module: Generate a ramdom number and print if is zero, positive or négative"""
+
 
 # 0. Positive anything is better than negative nothing
 
