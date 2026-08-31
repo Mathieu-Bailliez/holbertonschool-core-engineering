@@ -4,6 +4,7 @@ or négative"""
 
 # Define variables
 number = __import__("random").randint(-10, 10)
+
 positive = "is positive"
 zero = "is zero"
 negative = "is negative"
