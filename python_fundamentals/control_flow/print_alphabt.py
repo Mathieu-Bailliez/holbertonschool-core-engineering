@@ -10,4 +10,4 @@ for letter in range(97, 123):
     if letter != 101 and letter != 113:
         # Step 3. We control the output using the end parameter
         # and format with :c
-        print(f"{letter:c}", end="\n" if letter == 122 else "")
+        print("{:c}".format(letter), end="\n" if letter == 122 else "")
