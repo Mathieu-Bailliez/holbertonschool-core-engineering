@@ -12,4 +12,4 @@ def uppercase(str):
             result += letter
     print("{}".format(result))
 
-uppercase("Holberton")
+uppercase("holberton")
