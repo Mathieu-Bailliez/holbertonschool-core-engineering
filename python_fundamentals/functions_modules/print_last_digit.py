@@ -12,4 +12,4 @@ def print_last_digit(number):
         digit = number % 10
 
     print(abs(digit), end="")
-    return(abs(digit))
+    return (abs(digit))
