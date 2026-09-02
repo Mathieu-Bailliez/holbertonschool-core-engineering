@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Module: """
 
-
 def uppercase(str):
 
     result = ""
@@ -11,4 +10,6 @@ def uppercase(str):
             result = result + chr(letter)
         else:
             result += letter
-    print(result)
+    print("{}".format(result))
+
+uppercase("Holberton")
