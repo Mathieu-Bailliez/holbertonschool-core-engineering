@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Module: """
 
+
 def uppercase(str):
+
     result = ""
     for letter in str:
         if ord(letter) >= 97 and ord(letter) <= 122:
