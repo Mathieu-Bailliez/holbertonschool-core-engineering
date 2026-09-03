@@ -4,7 +4,5 @@
 
 def print_list_integer(my_list=[]):
 
-    my_list = [1, 2, 3, 4, 5]
-
-    for value in my_list:
-        print("{:d}".format(value))
+    for element in my_list:
+        print("{:d}".format(element))
