@@ -2,10 +2,8 @@
 """Module: """
 
 
-import add_0
+from add_0 import add
 
 if __name__ == "__main__":
-    result = add_0.add(1, 2)
+    result = add(1, 2)
     print("{}".format(result))
-
-
