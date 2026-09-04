@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module: """
 
+
 def replace_in_list(my_list, idx, element):
 
     if idx < 0 or idx >= len(my_list):
@@ -8,4 +9,3 @@ def replace_in_list(my_list, idx, element):
     else:
         my_list[idx] = element
         return my_list
-
