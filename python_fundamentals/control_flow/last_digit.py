@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Generate a random number and display its last digit."""
 
 
 number = __import__('random').randint(-10000, 10000)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module : """
+"""Module : Print the lowercase alphabet except for the letters e and q"""
 
 
 # 2. Alphabet Game (Lowercase)

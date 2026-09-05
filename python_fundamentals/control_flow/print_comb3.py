@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module : """
+"""Module: Print all unique two-digit combinations in ascending order."""
 
 for digit1 in range(10):
     for digit2 in range(10):
