@@ -1,3 +1,5 @@
+# S.E.I.P. - Core Engineering
+
 <details>
 <summary> Python - Environment & First Programs </summary>
 
@@ -89,6 +91,7 @@ Reflect on why the behavior differs between expressions and statements.
 
 </details>
 
+---
 
 <details>
 <summary> 1. Deterministic Script Output</summary>
@@ -119,6 +122,8 @@ The output must match exactly.
         Directory: python_fundamentals/hello_world
         File: structured_output.py
 </details>
+
+---
 
 <details>
 <summary>
@@ -155,6 +160,9 @@ On a personal machine, installing tools globally can:
 
 This motivates the use of virtual environments.
 </details>
+
+---
+
 <details>
 <summary> 3. Virtual Environment Isolation
 </summary>
@@ -267,6 +275,8 @@ Expected behavior:
 </details>
 </details>
 
+<hr style="height: 5px; background-color: #333; border: none;">
+
 <details>
 <summary> Python - Control Flow </summary>
 
@@ -370,6 +380,8 @@ Repo:
 
 </details>
 
+---
+
 <details>
 <summary> 1. The last digit </summary>
 
@@ -398,4 +410,118 @@ Repo:
     Directory: python_fundamentals/control_flow
     File: last_digit.py
 
+</details>
 
+---
+
+<details>
+<summary> 2. Alphabet Game (Lowercase) </summary>
+
+Print the lowercase alphabet except for `q` and `e`
+Output must be continuous (no spaces, no new lines except at end).
+You can only use print once in your code
+
+Expected pattern:
+
+    abcdfghijklmnoprstuvwxyz
+
+Repo:
+
+- GitHub repository: `holbertonschool-core-engineering`
+- Directory: `python_fundamentals`/`control_flow`
+- File: `print_alphabt.py`
+
+</details>
+
+---
+
+<details>
+<summary> 3. Hexadecimal Printing </summary>
+
+Print numbers from 0 to 98 in decimal and hexadecimal.
+
+Format:
+
+    0 = 0x0
+    1 = 0x1
+    ...
+    98 = 0x62
+
+- You can only use one print function with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+
+Repo:
+
+- GitHub repository: `holbertonschool-core-engineering`
+- Directory: `python_fundamentals`/`control_flow`
+- File: `print_hexa.py`
+
+</details>
+
+---
+
+<details>
+<summary> 4. 00...99 </summary>
+
+Print numbers from 0 to 99 formatted as two-digit numbers separated by comma and space.
+
+Last number must not be followed by comma.
+
+Example beginning:
+
+    00, 01, 02, 03, ...
+
+- Correct formatting with leading zeros.
+- No trailing comma.
+- Exact spacing.
+- The last number should be followed by a new line
+- You can only use no more than 2 print functions with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+
+Repo:
+
+- GitHub repository: `holbertonschool-core-engineering`
+- Directory: `python_fundamentals`/`control_flow`
+- File: `print_comb2.py`
+
+</details>
+
+---
+
+<details>
+<summary> 5. Combinations of Two Digits </summary>
+
+Print all unique combinations of two different digits from 0 to 9.
+
+Rules:
+
+- Digits must be different.
+- Combinations must be printed in ascending order. (Print only the smallest combination of two digits)
+- Format: 01, 02, 03, ..., 89 (Numbers must be separated by , followed by a space)
+- No repetition ("01" and "10" are the same combination of digits).
+- You can only use no more than 3 print functions with string format
+- You can only use no more than 2 loops in your code
+
+```
+spam@camelot:~/$ ./print_comb3.py
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+```
+
+Repo:
+
+- GitHub repository: `holbertonschool-core-engineering`
+- Directory: `python_fundamentals`/`control_flow`
+- File: `print_comb3.py`
+
+</details>
+</details>
+
+<hr style="height: 5px; background-color: #333; border: none;">
+
+<details>
+<summary> Python - Functions & Modularity </summary>
+
+
+</details>
