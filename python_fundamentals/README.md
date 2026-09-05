@@ -1,9 +1,9 @@
-# [📁 python_fundamentals](./python_fundamentals/)
+# [📁 python_fundamentals](./)
 
-## [📁 hello_world](./python_fundamentals/hello_world/)
+## [📁 hello_world](./hello_world/)
 
-## [📁 control_flow](./python_fundamentals/control_flow/)
+## [📁 control_flow](./control_flow/)
 
-## [📁 function_modules](./python_fundamentals/function_modules/)
+## [📁 function_modules](./functions_modules/)
 
-## [📁 core_data_structures](./python_fundamentals/core_data_structures/)
+## [📁 core_data_structures](./core_data_structures/)
