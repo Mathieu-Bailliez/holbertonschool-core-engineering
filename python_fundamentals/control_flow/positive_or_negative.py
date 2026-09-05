@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Module: generate a ramdom number in a delimited range and print if the
+result is positive, negative or zero"""
 
 number = __import__('random').randint(-10, 10)
 positive = "is positive"
