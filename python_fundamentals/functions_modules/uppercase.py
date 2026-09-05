@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Take a string and convert lowercase characters to uppercase using ASCII values."""
 
 
 def uppercase(str):

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Perform basic arithmetic operations on two numbers."""
 
 
 from calculator_1 import add, div, mul, sub

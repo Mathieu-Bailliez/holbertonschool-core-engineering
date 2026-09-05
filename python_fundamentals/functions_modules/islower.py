@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Check if a character is a lowercase letter."""
 
 
 def islower(c):

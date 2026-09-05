@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Import a variable from another module and print its value."""
 
 from variable_load_5 import a
 

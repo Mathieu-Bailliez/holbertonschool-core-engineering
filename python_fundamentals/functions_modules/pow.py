@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Calculate the power of a number using a given exponent."""
 
 
 def pow(a, b):

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Import a module, add two numbers, and print the result."""
 
 
 from add_0 import add

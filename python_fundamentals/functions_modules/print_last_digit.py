@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module: """
+"""Module: Print and return the last digit of a given number."""
 
 
 def print_last_digit(number):
