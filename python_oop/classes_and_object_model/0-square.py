@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Module: Create a Class Square using special methode"""
+"""Module: Create a Class Square"""
 
 
 class Square:
-    def __init__
+    pass
