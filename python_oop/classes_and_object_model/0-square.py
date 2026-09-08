@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Module: Create a Class Square"""
+"""Module: Defines a Square class."""
 
 
 class Square:
-    pass
+    """Represent a square."""
