@@ -54,7 +54,10 @@ class Square:
             print(" " * self.position[0] + "#" * self.size)
 
     def __str__(self):
-
-        result = ""
-
-        result += "#" * self.__size + "\n"
+        """Return the square drawn with the character #."""
+        if self.__size == 0:
+            return ""
+        rows = [""] * self.__position[1]
+        for _ in range(self.__size):
+            rows.append(" " * self.__position[0] + "#" * self.__size)
+        return "\n".join(rows)
