@@ -45,13 +45,8 @@ class Square:
         return self.__size * self.__size
 
     def my_print(self):
-        """Print the square with the character #"""
-        if self.__size == 0:
-            print()
-        for _ in range(self.position[1]):
-            print()
-        for _ in range(self.size):
-            print(" " * self.position[0] + "#" * self.size)
+        """Print the square with the character #."""
+        print(self)
 
     def __str__(self):
         """Return the square drawn with the character #."""
