@@ -20,6 +20,9 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
+    """Set a width and height validated with the integer_validator() method
+    inherited from the parent class BaseGeometry"""
+
     def __init__(self, width, height):
         self.integer_validator(width, width)
         self.integer_validator(height, height)
