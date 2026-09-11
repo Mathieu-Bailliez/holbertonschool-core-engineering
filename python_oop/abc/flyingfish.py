@@ -3,9 +3,9 @@
 
 
 class Fish:
-    "Represents a fish"
+    """Represents a fish"""
 
-    def swin(self):
+    def swim(self):
         """Print how the fish moves."""
 
         print("The fish is swimming")
@@ -17,7 +17,7 @@ class Fish:
 
 
 class Bird:
-    "Represents a bird"
+    """Represents a bird"""
 
     def fly(self):
         """Print how the bird moves."""
@@ -36,8 +36,16 @@ class FlyingFish(Fish, Bird):
     def fly(self):
         print("The flying fish is soaring!")
 
-    def swin(self):
+    def swim(self):
         print("The flying fish is swimming!")
 
     def habitat(self):
         print("The flying fish lives both in water and the sky!")
+
+
+ff = FlyingFish()
+
+ff.fly()
+ff.swim()
+ff.habitat()
+print(type(ff).mro())
