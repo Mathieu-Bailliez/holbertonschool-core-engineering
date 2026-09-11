@@ -27,7 +27,7 @@ class Circle(Shape):
 
     def area(self):
         """Calculate the area of the circle."""
-        return my_pi * self.radius
+        return my_pi * self.radius ** 2
 
     def perimeter(self):
         """Calculate the perimeter of the circle."""
@@ -36,9 +36,9 @@ class Circle(Shape):
 
 class Rectangle(Shape):
     """Represents a rectangle shape."""
-    def __init__(self, widht, height):
+    def __init__(self, width, height):
         """Initialize the rectangle with a given width and height."""
-        self.width = widht
+        self.width = width
         self.height = height
 
     def area(self):
@@ -49,9 +49,9 @@ class Rectangle(Shape):
         """Calculate the perimeter of the rectangle ((width + height) * 2)."""
         return (self.width + self.height) * 2
 
-    def shape_info(shape):
-        """Print the area and perimeter of any object implementing the shape
-        interface."""
+def shape_info(shape):
+    """Print the area and perimeter of any object implementing the shape
+    interface."""
 
-        print(f"Area: {shape.area()}")
-        print(f"Perimeter: {shape.perimeter()}")
+    print(f"Area: {shape.area()}")
+    print(f"Perimeter: {shape.perimeter()}")
