@@ -41,11 +41,3 @@ class FlyingFish(Fish, Bird):
 
     def habitat(self):
         print("The flying fish lives both in water and the sky!")
-
-
-ff = FlyingFish()
-
-ff.fly()
-ff.swin()
-ff.habitat()
-print(type(ff).mro())
