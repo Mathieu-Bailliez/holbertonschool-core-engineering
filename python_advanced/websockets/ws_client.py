@@ -16,5 +16,6 @@ async def connect_and_send(uri: str, text: str) -> str:
 
 
 if __name__ == "__main__":
-    result = asyncio.run(connect_and_send("ws://127.0.0.1:8765/", "demo"))
+    result = asyncio.run(connect_and_send("ws://127.0.0.1:8765/",
+                                          "Hello WebSocket"))
     print(result, end="")
