@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """ASGI app serving an HTML page and a WebSocket echo endpoint."""
 
-import asyncio
-import websockets
 
 from starlette.applications import Starlette
 from starlette.responses import HTMLResponse
 from starlette.routing import Route, WebSocketRoute
+
 
 async def homepage(request):
     """Return the HTML home page."""
